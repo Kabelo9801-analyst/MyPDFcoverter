@@ -33,7 +33,7 @@ fi
 
 # Launch GUI
 if [[ ! -f "legal_converter_gui.py" ]]; then
-  echo "ERROR: legal_converter_gui.py not found in $PROJECT_DIR"
+  echo "ERROR: Myinterface.py not found in $PROJECT_DIR"
   exit 4
 fi
 
