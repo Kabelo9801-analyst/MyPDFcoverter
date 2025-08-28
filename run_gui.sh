@@ -32,7 +32,7 @@ if [[ -z "${OPENAI_API_KEY:-}" ]]; then
 fi
 
 # Launch GUI
-if [[ ! -f "legal_converter_gui.py" ]]; then
+if [[ ! -f "Myinterface.py" ]]; then
   echo "ERROR: Myinterface.py not found in $PROJECT_DIR"
   exit 4
 fi
