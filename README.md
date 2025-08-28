@@ -1,5 +1,5 @@
 
-# Legal Document Converter (Plain English + Bullet Summary)
+# Legal Document Converter (Plain English and Bullet Summary)
 
 This project converts legal documents (PDF, DOCX, TXT) into:
 1) **Plain-English** versions that preserve all content and context.
@@ -13,9 +13,7 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -U openai python-docx pdfplumber PyPDF2 reportlab tqdm
 ```
 
-> `reportlab` is optional, used only for simple PDF output. If you don't need PDF output, you can omit it.
-
-## Configure API Key (do not hardcode secrets)
+## Configure API Key 
 
 ```bash
 # macOS / Linux
