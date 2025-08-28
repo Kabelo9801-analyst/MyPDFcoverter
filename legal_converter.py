@@ -53,6 +53,9 @@ from docx import Document as DocxDocument
 from docx.enum.style import WD_STYLE_TYPE
 from docx.shared import Pt
 from tqdm import tqdm
+from dotenv import load_dotenv
+load_dotenv()
+
 
 # Optional (only used for simple PDF writing if installed)
 try:
