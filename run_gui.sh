@@ -37,4 +37,4 @@ if [[ ! -f "legal_converter_gui.py" ]]; then
   exit 4
 fi
 
-python3 legal_converter_gui.py
+python3 Myinterface.py
