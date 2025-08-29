@@ -13,7 +13,7 @@ USAGE
 1) Install dependencies (Python 3.10+):
    pip install -U openai python-docx pdfplumber PyPDF2 reportlab tqdm
 
-2) Set your API key **securely** (do NOT hardcode keys in code):
+2) Set your API key 
    # macOS / Linux
    export OPENAI_API_KEY="sk-..."
    # Windows (PowerShell)
@@ -24,12 +24,6 @@ USAGE
 
    # For multiple workers (process multiple files in parallel)
    python legal_converter.py --input ./in --output ./out --workers 3
-
-SECURITY NOTE
--------------
-Never paste API keys into source files or share them. Use environment variables
-like OPENAI_API_KEY. This script intentionally reads the key from the environment.
-"""
 
 from __future__ import annotations
 
